@@ -287,7 +287,7 @@ st.write('----------------------------------------------------------------------
 
 # sidebar
 st.sidebar.header('eT-AKRT')
-txt2 = '''This is a beta-version. The models were trained and tested on data from [SEA-AKI study](https://www.sciencedirect.com/science/article/abs/pii/S088394412100085X). This data was provided by Dr. Nattachai Srisawat. The complete experiment method and results have been prepared and will be published soon. However, The performance of models is partially reported below. The model construction, experiment, and web development have been done by [Dr. Wanjak Pongsittisak](https://sites.google.com/nmu.ac.th/wanjakpongsittisak/home). For more information or any suggestion, don't hesitate to get in touch with [me](mailto:wanjak@nmu.ac.th).''' 
+txt2 = '''This is a beta-version. The models were trained and tested on data from [SEA-AKI study](https://www.sciencedirect.com/science/article/abs/pii/S088394412100085X). This data was provided by Dr. Nattachai Srisawat. The complete experiment method and results have been prepared and will be published soon. However, The performance of models is partially reported below. The model construction, experiment, and web development have been done by [Dr. Wanjak Pongsittisak](https://sites.google.com/nmu.ac.th/wanjakpongsittisak/about). For more information or any suggestion, don't hesitate to get in touch with [me](mailto:wanjak@nmu.ac.th).''' 
 st.sidebar.write(txt2)
 st.sidebar.write('Version 0.9')
 st.sidebar.markdown('&copy; 2021 Wanjak Pongsittisak All Rights Reserved')
