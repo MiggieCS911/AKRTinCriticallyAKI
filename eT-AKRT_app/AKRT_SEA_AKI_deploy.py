@@ -303,7 +303,7 @@ st.dataframe(tab)
 
 #thank you
 st.header('Credit')
-txt3 = '''All code is written by [Python 3.7] (https://www.python.org/). We thank everone who contributes to all libraries and packages that we used: [Pandas](https://pandas.pydata.org/), [Numpy](https://numpy.org/), [Scikit-learn](https://scikit-learn.org/stable/), [XGBoost](https://xgboost.readthedocs.io/en/latest/), [Matplotlib](https://matplotlib.org/), and [Streamlit](https://streamlit.io/)'''
+txt3 = '''All code is written by [Python 3.7] (https://www.python.org/). We thank everyone who contributes to all libraries and packages that we used: [Pandas](https://pandas.pydata.org/), [Numpy](https://numpy.org/), [Scikit-learn](https://scikit-learn.org/stable/), [XGBoost](https://xgboost.readthedocs.io/en/latest/), [Matplotlib](https://matplotlib.org/), and [Streamlit](https://streamlit.io/)'''
 st.write(txt3)
     
     
