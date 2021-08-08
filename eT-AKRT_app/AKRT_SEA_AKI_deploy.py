@@ -51,7 +51,7 @@ def fit_rf_prob(info):
 
 #start application
 st.title('The Ensemble Tree-based Machine Learning Algorithm to Predict Acute Kidney Replacement Therapy in Critically-ill Patient (*eT-AKRT*)')
-txt1 = '''To predict AKRT within 7 days of critically-illpatient.\n 
+txt1 = '''To predict AKRT within 7 days of critically-ill patient.\n 
 There are 2 models: The Extreme Gradient Boost algorithm (XGBoost) and Random Forests algorithm.'''
 st.write(txt1)
 
@@ -250,9 +250,9 @@ elif MAP == 'MAP < 70 mmHg':
     MAP_num = 1
 elif MAP == 'Dopamine ≤ 5 mcg/kg/min od Dobutamine (any dose)':
     MAP_num = 2
-elif MAP == 'Dopamin > 5, Epinephrine ≤ 0.1, or Norepinephrine ≤ 0.1':
+elif MAP == 'Dopamine > 5, Epinephrine ≤ 0.1, or Norepinephrine ≤ 0.1':
     MAP_num = 3
-elif MAP == 'Dopamin > 15, Epinephrine > 0.1, or Norepinephrine > 0.1':
+elif MAP == 'Dopamine > 15, Epinephrine > 0.1, or Norepinephrine > 0.1':
     MAP_num = 4
     
 #non-renal SOFA
