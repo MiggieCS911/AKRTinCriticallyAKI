@@ -242,8 +242,8 @@ else:
 MAP = st.radio('Mean arterial pressure', ['No hypotension',
                                          'MAP < 70 mmHg',
                                          'Dopamine ≤ 5 mcg/kg/min od Dobutamine (any dose)',
-                                         'Dopamin > 5, Epinephrine ≤ 0.1, or Norepinephrine ≤ 0.1',
-                                         'Dopamin > 15, Epinephrine > 0.1, or Norepinephrine > 0.1'])
+                                         'Dopamine > 5, Epinephrine ≤ 0.1, or Norepinephrine ≤ 0.1',
+                                         'Dopamine > 15, Epinephrine > 0.1, or Norepinephrine > 0.1'])
 if MAP == 'No hypotension':
     MAP_num = 0
 elif MAP == 'MAP < 70 mmHg':
